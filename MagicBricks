@@ -1,0 +1,124 @@
+from bs4 import BeautifulSoup
+import requests
+import pandas as pd
+from csv import writer
+import html5lib
+
+def DataConvert(items,link):
+    output=[]
+    data=[]
+    for item in items:
+        if item.find('div',{'data-summary': link}) != None:
+            loc= item.find('div', {"data-summary":link})
+            data+=loc.find('div', class_='mb-srp__card__summary--value')
+        else:
+            data+=BeautifulSoup("None", features="html5lib")
+    for item in data:
+        output+=[item.text]
+    return output  
+    
+def getData(soup,city):
+    lists=  soup.find_all('div', class_="mb-srp__card__info")
+    estimates= soup.find_all('div', class_= 'mb-srp__card__estimate')
+    description= soup.find_all('div', class_= 'mb-srp__card--desc--text')
+
+
+    with open('MagicBricks.csv', 'a', encoding='utf8', newline='') as f:
+        furnishing=[]
+        summary=[]
+        tenant=[]
+
+        availability=[]
+
+        carpet=[]
+
+        floor=[]
+
+        facing=[]
+
+        bathroom=[]
+
+        balcony=[]
+
+        parking=[]
+
+        overlooking=[]
+        rent=[]
+        title=[]
+        desc=[]
+        aptName=[]
+        
+
+        thewriter= writer(f)
+        for item,prices,para in zip(lists, estimates, description):
+            furnishing= DataConvert(item,'Furnishing')
+            temp1= item.find('h2', class_="mb-srp__card--title").text.replace('\n','')
+            title.append(temp1)
+            try:
+                temp2= item.find('a', class_="mb-srp__card__society--name").text.replace('\n','')
+                aptName.append(temp2)
+            except:
+                aptName.append("None")
+
+
+            try:
+                temp=prices.find('div', class_= "mb-srp__card__price--amount").text.replace('\n','')
+                rent.append(temp)
+            except:
+                rent.append("None")
+            
+            
+            try:
+                temp3= para.find('p').text.replace('\n','')
+                desc.append(temp3)
+            except:
+                desc.append("None")
+        furnishing= DataConvert(lists,'furnishing')
+        tenant= DataConvert(lists,'tenent-preffered')
+        availability= DataConvert(lists,'status')
+        carpet= DataConvert(lists,'carpet-area')
+        floor= DataConvert(lists,'floor')
+        facing= DataConvert(lists,'facing')
+        overlooking= DataConvert(lists,'overlooking')
+        bathroom= DataConvert(lists,'bathroom')
+        balcony= DataConvert(lists,'balcony')
+        
+        # thewriter.writerow(headers)
+        for i in range(0, len(aptName)):
+            summary+=[[city,title[i],aptName[i],furnishing[i],tenant[i],availability[i],carpet[i],floor[i],facing[i],overlooking[i],bathroom[i],balcony[i],rent[i],desc[i]]]
+
+        for item in summary:
+            thewriter.writerow(item)
+    # for item in aptName:
+    #     print(type(item))   
+    #print(rent)
+    #print(title)
+    # print(len(balcony))
+    # for item in summary:
+    #     print(type(item))
+
+
+with open('MagicBricks.csv', 'w', encoding='utf8', newline='') as f:
+    thewriter= writer(f)
+    headers= ['City','Accommodation', 'Apartment Name', 'Furnishing', 'Tenant Preferred', 'Availability','Carpet Area', 'Floor', 'Facing','overlooking','Bathroom','Balcony','Rent', 'Description']
+    thewriter.writerow(headers)
+
+
+cities=["bangalore", "new-delhi", "chennai", "hyderabad","gurgaon","mumbai","pune","kolkata","noida","greater-noida","faridabad","ahemdabad"]
+for city in cities:
+    url = "https://www.magicbricks.com/flats-for-rent-in-"+city+"-pppfr"
+    page= requests.get(url)
+#print(page)
+    soup = BeautifulSoup(page.content,'html.parser')
+    getData(soup,city)
+
+
+#print(soup)
+
+  
+
+
+
+    
+
+
