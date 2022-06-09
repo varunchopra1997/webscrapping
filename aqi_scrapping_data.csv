@@ -1,44 +1,55 @@
-station,aqi,latitude,longitude,co,no2,o3,so2,pm10,pm2.5,time
-"Montg, Alabama, USA",21,32.4069,-86.2564,None,None,20.8,None,None,10,2022-06-07 04:00:00
-"South Phoenix, Maricopa, USA",54,33.403055555556,-112.07527777778,1.2,4.7,9.6,0.1,39,54,2022-06-07 03:00:00
-"Parr, Arkansas, USA",2,34.7561,-92.2758,None,None,1.6,None,None,None,2022-06-07 04:00:00
-"Sacramento - 1309 T Street, Sacramento, California",23,38.56844,-121.49311,None,3.8,0.1,None,18,23,2022-06-06 20:00:00
-"CAMP, Colorado, USA",13,39.751184,-104.987625,1.2,4.6,11.4,0.6,8,13,2022-06-07 03:00:00
-"Hartford-Huntley, Connecticut, USA",25,41.771444,-72.679923,2.8,11,None,None,12,25,2022-06-07 05:00:00
-"Tallahassee Community College, Leon, Florida, USA",15,30.439722222222,-84.346388888889,1.4,None,4.5,0.6,None,15,2022-06-07 05:00:00
-"United Ave., Georgia, USA",50,33.720192,-84.357056,None,None,8,1.5,None,50,2022-06-07 04:00:00
-"Honolulu, Hawaii, USA",9,21.30758,-157.85542,1.2,None,None,None,4,9,2022-06-07 00:00:00
-"Boise Fire Station #5, Idaho, USA",21,43.618889,-116.213611,7.4,1,25.6,1.5,10,21,2022-06-07 03:00:00
-"Hillcrest HS, Missouri, USA",35,37.256069,-93.299692,None,None,3.2,None,20,35,2022-06-07 04:00:00
-"Indpls - I-70 E, Indiana, USA",34,39.787933,-86.13088,95.3,6.5,24.1,None,None,34,2022-06-07 05:00:00
-"Carpenter, Des Moines, Iowa, USA",26,41.603056,-93.643056,None,3.1,25.6,None,None,16,2022-06-07 05:00:00
-"KNI-Topeka, Kansas, USA",35,39.0242,-95.7114,None,None,35.2,None,13,20,2022-06-07 04:00:00
-"Frankfurt-Ost, Germany",34,50.126666666667,8.7483333333333,0.1,19.2,34.1,0.5,3,36,2022-06-07 12:00:00
-"Baton Rouge Capitol site, Louisiana, USA",32,30.46198,-91.17922,1.5,8.4,7.3,0.2,5,32,2022-06-07 05:00:00
-"Augusta, Georgia, USA",29,33.433349,-82.022217,None,None,11.2,1.5,14,29,2022-06-07 04:00:00
-Boston,30,42.3584308,-71.0597732,4,17.6,29.6,1.5,None,30,2022-06-07 04:00:00
-"Lansing Filley St, Michigan, USA",55,42.76138,-84.562867,None,2.8,22.4,1.5,None,55,2022-06-07 05:00:00
-"St. Paul-Harding H.S., Minnesota, USA",21,44.9594,-93.0356,None,None,None,None,None,21,2022-06-07 04:00:00
-"Jackson NCORE, Mississippi, USA",54,32.329111,-90.182722,0.6,None,16.8,1.5,32,54,2022-06-07 04:00:00
-"Beaumont Mary, Beaumont, Texas",-,30.06717,-94.09093,None,None,None,None,None,None,None
-"Rossiter Pump House, Montana, USA",4,46.6588,-112.0131,None,None,None,None,None,4,2022-06-07 03:00:00
-"Llchd Bam, Nebraska, USA",25,40.812558,-96.675733,None,None,None,None,None,25,2022-06-07 04:00:00
-"Concord, Contra Costa, California",17,37.936,-122.0262,1.2,2.8,13.6,1.5,None,17,2022-06-07 01:00:00
-"Rider University, NewJersey, USA",38,40.28308,-74.74264,None,6.5,16,None,None,38,2022-06-07 05:00:00
-"Albany County HD, New York, USA",25,42.642253,-73.754576,2.3,None,2,None,None,25,2022-06-07 05:00:00
-"Millbrook NCore, North Carolina, USA",53,35.856098,-78.574203,2.2,5.6,22.4,1.5,20,53,2022-06-07 05:00:00
-"Bismarck Residential, North Dakota, USA",19,46.8253,-100.7681,1.5,2.8,19.2,1.5,9,15,2022-06-07 03:00:00
-"Columbus - Fairgrounds, Ohio, USA",-,40.002734,-82.994404,None,3.8,None,None,None,None,2020-05-25 10:00:00
-"Near Road OKC, Oklahoma, USA",45,35.502968,-97.577674,5.6,5.6,None,None,19,45,2022-06-07 04:00:00
-"Salem, Oregon, USA",17,44.943114,-123.005934,None,None,1.8,None,None,17,2022-06-07 02:00:00
-"Harrisburg, Pennsylvania, USA",26,40.246992,-76.846988,None,5.6,25.6,None,None,20,2022-06-07 02:00:00
-"CCRI Providence, Rhode Island, USA",25,41.807523,-71.41392,None,None,None,None,None,25,2022-06-07 05:00:00
-"Columbia, Tennessee, USA",5,35.65188,-87.0096,None,None,None,None,None,5,2022-06-07 04:00:00
-"Lockland, Tennessee, USA",-,36.1767,-86.7386,None,None,None,None,None,39,2022-06-01 15:00:00
-"Austin Northwest, Austin, Texas",18,30.3544356,-97.7602554,None,0.4,17.6,0.2,None,13,2022-06-07 04:00:00
-"Salt Lake City, Utah",24,40.733501,-111.871696,1.2,6.5,24.1,None,None,21,2022-06-07 04:00:00
-"MSIC (MathScience Innovation Center), Richmond, USA",23,37.55652,-77.40027,0.1,3.4,9,0.4,13,23,2022-06-07 05:00:00
-"College St, Lacey, Washington, USA",10,47.029396,-122.821548,None,None,3.2,None,7,10,2022-06-07 04:00:00
-"SPA-Irving St., South Carolina, USA",36,32.836602,-79.956983,None,11.2,None,1.5,None,36,2022-06-07 05:00:00
-"Madison-east, Wisconsin, USA",25,43.07378,-89.43595,None,None,12.1,1.5,9,25,2022-06-07 04:00:00
-"Cheyenne NCore, Wyoming, USA",30,41.18222,-104.778336,0.2,1,30.4,None,6,13,2022-06-07 03:00:00
+station,aqi,latitude,longitude,co,no2,o3,so2,pm10,pm2.5,time,batch_time
+"Montg, Alabama, USA",24,32.4069,-86.2564,None,None,11.2,None,None,24,2022-06-09 01:00:00,2022-06-09 13:06:21
+"South Phoenix, Maricopa, USA",37,33.403055555556,-112.07527777778,1.2,4.7,12.8,0.1,37,28,2022-06-09 00:00:00,2022-06-09 13:06:21
+"Parr, Arkansas, USA",13,34.7561,-92.2758,None,None,12.8,None,None,None,2022-06-09 00:00:00,2022-06-09 13:06:21
+"Sacramento - 1309 T Street, Sacramento, California",39,38.56844,-121.49311,None,3.8,0.1,None,12,39,2022-06-08 20:00:00,2022-06-09 13:06:21
+"CAMP, Colorado, USA",20,39.751184,-104.987625,1.9,2.3,19.5,0.6,10,13,2022-06-08 23:00:00,2022-06-09 13:06:21
+"Hartford-Huntley, Connecticut, USA",34,41.771444,-72.679923,2.3,5.1,None,None,13,34,2022-06-09 02:00:00,2022-06-09 13:06:21
+"Tallahassee Community College, Leon, Florida, USA",6,30.439722222222,-84.346388888889,1.3,None,5.3,0.6,None,6,2022-06-09 02:00:00,2022-06-09 13:06:21
+"United Ave., Georgia, USA",45,33.720192,-84.357056,None,None,21.6,1.5,None,45,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Honolulu, Hawaii, USA",17,21.30758,-157.85542,1.2,None,None,None,4,17,2022-06-08 21:00:00,2022-06-09 13:06:21
+"Boise Fire Station #5, Idaho, USA",25,43.618889,-116.213611,7.4,1,25.6,1.5,11,25,2022-06-08 23:00:00,2022-06-09 13:06:21
+"Hillcrest HS, Missouri, USA",18,37.256069,-93.299692,None,None,4,None,15,18,2022-06-09 00:00:00,2022-06-09 13:06:21
+"Indpls - I-70 E, Indiana, USA",42,39.787933,-86.13088,95.3,11.2,17.6,None,None,42,2022-06-09 02:00:00,2022-06-09 13:06:21
+"Carpenter, Des Moines, Iowa, USA",39,41.603056,-93.643056,None,15.6,39.2,None,None,19,2022-06-09 01:00:00,2022-06-09 13:06:21
+"KNI-Topeka, Kansas, USA",27,39.0242,-95.7114,None,None,4,None,14,27,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Baton Rouge Capitol site, Louisiana, USA",23,30.46198,-91.17922,1,6,9.6,0.2,4,23,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Augusta, Georgia, USA",35,33.433349,-82.022217,None,None,19.2,1.5,15,35,2022-06-09 01:00:00,2022-06-09 13:06:21
+Boston,34,42.3584308,-71.0597732,5.8,18.6,19.2,14.3,None,34,2022-06-09 00:00:00,2022-06-09 13:06:21
+"Lansing Filley St, Michigan, USA",24,42.76138,-84.562867,None,4.7,11.2,1.5,None,24,2022-06-09 01:00:00,2022-06-09 13:06:21
+"St. Paul-Harding H.S., Minnesota, USA",30,44.9594,-93.0356,None,None,None,None,None,30,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Jackson NCORE, Mississippi, USA",21,32.329111,-90.182722,None,None,14.5,1.5,11,21,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Beaumont Mary, Beaumont, Texas",-,30.06717,-94.09093,None,None,None,None,None,None,None,2022-06-09 13:06:21
+"Rossiter Pump House, Montana, USA",50,46.6588,-112.0131,None,None,None,None,None,50,2022-06-09 00:00:00,2022-06-09 13:06:21
+"Llchd Bam, Nebraska, USA",17,40.812558,-96.675733,None,None,None,None,None,17,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Concord, Contra Costa, California",21,37.936,-122.0262,1,1.9,16,1.5,None,21,2022-06-08 22:00:00,2022-06-09 13:06:21
+"Rider University, NewJersey, USA",30,40.28308,-74.74264,None,5.6,30.4,None,None,24,2022-06-09 02:00:00,2022-06-09 13:06:21
+"Albany County HD, New York, USA",28,42.642253,-73.754576,2.3,None,2,None,None,28,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Millbrook NCore, North Carolina, USA",35,35.856098,-78.574203,1.6,4.7,14.5,1.5,16,35,2022-06-09 02:00:00,2022-06-09 13:06:21
+"Bismarck Residential, North Dakota, USA",40,46.8253,-100.7681,1.7,6.5,21.6,1.5,26,40,2022-06-09 00:00:00,2022-06-09 13:06:21
+"Columbus - Fairgrounds, Ohio, USA",-,40.002734,-82.994404,None,3.8,None,None,None,None,2020-05-25 10:00:00,2022-06-09 13:06:21
+"Near Road OKC, Oklahoma, USA",43,35.502968,-97.577674,4.5,8.4,None,None,17,43,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Salem, Oregon, USA",12,44.943114,-123.005934,None,None,0.1,None,None,12,2022-06-08 23:00:00,2022-06-09 13:06:21
+"Harrisburg, Pennsylvania, USA",38,40.246992,-76.846988,None,2.8,32.8,None,10,38,2022-06-09 01:00:00,2022-06-09 13:06:21
+"CCRI Providence, Rhode Island, USA",38,41.807523,-71.41392,None,None,None,None,None,38,2022-06-09 02:00:00,2022-06-09 13:06:21
+"Columbia, Tennessee, USA",17,35.65188,-87.0096,None,None,None,None,None,17,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Lockland, Tennessee, USA",-,36.1767,-86.7386,None,None,None,None,None,39,2022-06-01 15:00:00,2022-06-09 13:06:21
+"Austin Northwest, Austin, Texas",50,30.3544356,-97.7602554,None,0.6,16,0.2,None,50,2022-06-09 00:00:00,2022-06-09 13:06:21
+"Salt Lake City, Utah",29,40.733501,-111.871696,1.8,9.3,28.9,None,None,26,2022-06-09 01:00:00,2022-06-09 13:06:21
+"MSIC (MathScience Innovation Center), Richmond, USA",37,37.55652,-77.40027,0.1,1.8,10.6,0.3,14,37,2022-06-09 02:00:00,2022-06-09 13:06:21
+"College St, Lacey, Washington, USA",20,47.029396,-122.821548,None,None,20,None,8,12,2022-06-09 01:00:00,2022-06-09 13:06:21
+"SPA-Irving St., South Carolina, USA",24,32.836602,-79.956983,None,1,None,1.5,None,24,2022-06-09 02:00:00,2022-06-09 13:06:21
+"Madison-east, Wisconsin, USA",30,43.07378,-89.43595,None,None,12.8,1.5,11,30,2022-06-09 01:00:00,2022-06-09 13:06:21
+"Cheyenne NCore, Wyoming, USA",37,41.18222,-104.778336,0.4,2.8,36.8,None,14,5,2022-06-08 23:00:00,2022-06-09 13:06:21
+"New Delhi US Embassy, India (नई दिल्ली अमेरिकी दूतावास)",153,28.63576,77.22445,None,None,None,None,None,153,2022-06-09 00:00:00,2022-06-09 13:06:21
+"Vikas Sadan Gurgaon, Gurgaon, India",199,28.4501285,77.0263051,9.1,5.3,22.4,5,None,199,2022-06-09 10:00:00,2022-06-09 13:06:21
+"Mumbai US Consulate, India (मुंबई अमेरिकी वाणिज्य दूतावास)",25,19.07283,72.88261,None,None,None,None,None,25,2022-06-09 12:00:00,2022-06-09 13:06:21
+"Chennai US Consulate, Chennai, India (चेन्नई अमेरिकी वाणिज्य दूतावास)",74,13.08784,80.27847,None,None,None,None,None,74,2022-06-09 12:00:00,2022-06-09 13:06:21
+"Hombegowda Nagar, Bengaluru, India",21,12.938539,77.5901,1.6,5.6,7.5,2.2,13,21,2022-06-09 11:00:00,2022-06-09 13:06:21
+"IIPHG Lekawada, Gandhinagar, India",102,23.243639,72.68994,0.8,9.1,5.4,2.2,41,102,2022-06-09 11:00:00,2022-06-09 13:06:21
+"Muradpur, Patna, India",157,25.619651,85.147382,10.6,4.4,53.6,0.6,127,157,2022-06-09 12:00:00,2022-06-09 13:06:21
+"Kolkata US Consulate, India (कोलकाता अमेरिकी वाणिज्य दूतावास)",99,22.56263,88.36304,None,None,None,None,None,99,2022-06-09 11:00:00,2022-06-09 13:06:21
+"Sector 22, Chandigarh, India",163,30.735567,76.775714,13.5,11,69.6,6.7,150,163,2022-06-09 11:00:00,2022-06-09 13:06:21
+"T T Nagar, Bhopal, India",69,23.233584,77.400574,2.7,2.9,25.4,9.4,69,69,2022-06-09 11:00:00,2022-06-09 13:06:21
+"Plammoodu, Thiruvananthapuram, India",33,8.5140567,76.9477422,0.9,2.8,2.8,6.4,33,28,2022-06-09 11:00:00,2022-06-09 13:06:21
+"Shastri Nagar, Jaipur, India",290,26.9405166,75.8007016,6,30.8,25.6,10.9,290,167,2022-06-09 11:00:00,2022-06-09 13:06:21
